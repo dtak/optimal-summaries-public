@@ -158,7 +158,7 @@ score = roc_auc_score(np.array(y_test)[:, 1], y_hat_test)
 
 # write results to csv
 filename = "vasopressor_lstm_gridsearch_r{}".format(FLAGS.split_random_state)
-dir_path = '/n/home07/carissawu/optimal-summaries/vasopressor/models/LOS-6-600/lstm'
+dir_path = "insert_dir_name"
 with open('{file_path}.csv'.format(file_path=os.path.join(dir_path, filename)), 'a+') as csvfile: 
     # creating a csv writer object 
     csvwriter = csv.writer(csvfile) 
