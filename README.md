@@ -11,7 +11,7 @@ The MIMIC-III data source used in these files was created by running [this noteb
 
 ## Taxonomy
 
-**Before running any other files** in this directory, you first must run the [death_preprocess_data.ipynb notebook]().  This notebook stores standardized data files to a data/ subdirectory.
+**Before running any other files** in this directory, you first must run the [vasopressor_preprocess_data.ipynb notebook](https://github.com/db769/timeseries-optimal-summaries/blob/main/vasopressor/vasopressor_preprocess_data.ipynb).  This notebook stores standardized data files to a data/ subdirectory.
 
 ### Models and helpers
 * ```models.py``` contains all of the model parameters and training code for the custom model classes (logreg and LSTM).
