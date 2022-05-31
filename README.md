@@ -7,7 +7,7 @@
 
 ## Data Source
 
-The MIMIC-III data source used in these files was created by running [this notebook]().
+The MIMIC-III data source used in these files was created by running [this notebook](https://github.com/db769/timeseries-optimal-summaries/blob/main/vasopressor/pipe_interpretable_timeseries.ipynb).
 
 ## Taxonomy
 
