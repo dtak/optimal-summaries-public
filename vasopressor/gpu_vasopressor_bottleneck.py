@@ -182,7 +182,7 @@ score = roc_auc_score(np.array(y_test)[:, 1], y_hat_test)
 
 # write results to csv
 filename = "vasopressor_bottleneck_r{}_c{}_topkfinetune".format(FLAGS.split_random_state,FLAGS.num_concepts)
-dir_path = '/n/home07/carissawu/optimal-summaries/vasopressor/models/LOS-6-600/cos-sim/top-k'
+dir_path = "insert_dir_name"
 with open('{file_path}.csv'.format(file_path=os.path.join(dir_path, filename)), 'a+') as csvfile: 
     # creating a csv writer object 
     csvwriter = csv.writer(csvfile) 
