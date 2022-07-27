@@ -1,4 +1,4 @@
-# Learning Optimal Summaries of Clinical Time-series with Concept Bottleneck Models
+Code repository for the MLHC 2022 paper "Learning Optimal Summaries of Clinical Time-series with Concept Bottleneck Models"
 
 ## Installation and Requirements
 
